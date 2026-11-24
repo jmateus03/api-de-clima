@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Previsão do Tempo</h1>
+
+        <p>Pesquise o clima da sua cidade</p>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="cidades"
+                placeholder="Digite o nome da cidade"
+                required
+            >
+
+            <button type="submit" id="pesquisar">
+                Pesquisar
+            </button>
+
+        </form>
+
+        <div id="metricas"></div>
+
+    </main>
+
+    <script src="api.js"></script>
+
+</body>
+
+</html>
